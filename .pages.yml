@@ -28,6 +28,7 @@ content:
           - { name: email, label: Email, type: string, pattern: "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$" }
       - { name: description, label: Description, type: string }
       - { name: theme, label: Theme, type: string }
+      - { name: remote_theme, label: Remote Theme, type: string }
       - { name: plugins, label: Plugins, type: string, list: true }
       - { name: header_pages, label: Header pages, type: string, list: true }
       - name: minima
