@@ -13,5 +13,3 @@ gem 'jekyll-seo-tag'
 gem "jekyll-remote-theme"
 
 gem 'jekyll-relative-links'
-
-gem 'jekyll-admin', group: :jekyll_plugins
