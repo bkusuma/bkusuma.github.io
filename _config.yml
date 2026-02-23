@@ -52,62 +52,101 @@ linkedin_username: bkusuma
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi my name is Bharat and welcome to my site!
+  Data Scientist with a strong foundation in mathematics and hands-on experience in machine learning, statistical analysis, and data-driven strategy. Completed 600+ hours of intensive data science training covering ML, deep learning, and AI. Background in leveraging data analysis to drive engagement and business outcomes, including a 242% increase in Facebook engagement and 106x follower growth on Instagram during tenure at Sierra Club. Proficient in Python, SQL, and modern ML frameworks.
 
-# You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-#   - Lists
-#   - Tables
-#   - <a href="google.com">Links</a>
-#   - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Open to relocation. Based in Los Angeles, CA.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: How capable of repaying a loan is each applicant?
+        border: weak
+        title: Risk Of Default Prediction Classification
         link: https://github.com/bkusuma/home-credit-default-risk
-        link_text: Home Credit Group's Default Risk Prediction Competition
+        link_text: github.com/bkusuma/home-credit-default-risk
         additional_links:
-          - title:  Recommendation Systems Project
+          - title: Home Credit Default Risk
             icon: fab fa-github
-            url: https://github.com/bkusuma/recommendation-systems-project
-          - title:  Kaggle Competition Template
-            icon: fab fa-github
-            url: https://github.com/bkusuma/kaggle-competition-template
-        # quote: >
-          # Short overview of the project (optional)
+            url: https://github.com/bkusuma/home-credit-default-risk
         description: | # this will include new lines to allow paragraphs
-          Enjoyed working on these projects!
+          Developed and deployed a machine learning model to predict loan default risk for Home Credit Group's clients, using a stacking classifier to achieve a **ROC AUC score of 0.7573** on an imbalanced dataset.
+
+          - Engineered data pipeline to process and use 7 alternative data sources, handling feature engineering, imputation, and scaling.
+          - Implemented resampling techniques, tuned hyperparameters, and ensembled classifiers to optimize model performance.
+      - layout: left
+        border: weak
+        title: Lyrical Genre Classification
+        link: https://github.com/bkusuma/lyric-frequency-classifier
+        link_text: github.com/bkusuma/lyric-frequency-classifier
+        additional_links:
+          - title: Lyric Frequency Classifier
+            icon: fab fa-github
+            url: https://github.com/bkusuma/lyric-frequency-classifier
+        description: | # this will include new lines to allow paragraphs
+          Constructed a 10-class NLP model to classify song genres from stemmed lyric count vectors, achieving **42.5% accuracy**.
+
+          - Crafted features from a bag-of-words model using 200,000+ song subset from the Million Song Dataset.
+          - Benchmarked 7 machine learning models, including logistic regression, random forest, and gradient boosting, to identify the most effective classification algorithm.
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: LearningFuze
-        sub_title: Data Science Fellow
-        caption: January 2025  - present
-        # link: Link to company (optional)
-        # quote: >
-        #   Short description of the company (optional)
+        border: weak
+        title: Sierra Club
+        sub_title: Social Media Strategist, Audience and Platforms
+        caption: May 2021 - Aug 2024
+        link: https://www.sierraclub.org
         description: | # this will include new lines to allow paragraphs
-          Honed data science skills
+          - Analyzed and interpreted engagement data to inform public outreach strategy and increase program participation.
+          - Optimized content effectiveness through data analysis, performing A/B tests on messaging and visuals to drive conversions.
+          - Performed trend analysis on large-scale datasets to guide campaign strategy, contributing to a **242% increase in Facebook engagement** and **106x follower growth on Instagram**.
+      - layout: right
+        border: weak
+        title: Sierra Club
+        sub_title: Digital Community Manager
+        caption: Jun 2014 - Jan 2021
+        link: https://www.sierraclub.org
+        description: | # this will include new lines to allow paragraphs
+          - Grew Sierra Club social media presence, increasing engagement across all channels, with **84% YOY growth on X**.
+          - Created and executed Sierra Club's overall online community engagement strategy with a strong focus on social media.
+          - Liaised with program staff to strategize and manage large-scale digital engagement campaigns.
+      - layout: right
+        title: Sigmaways, Inc
+        sub_title: Social Technologist
+        caption: Aug 2012 - May 2014
+        description: | # this will include new lines to allow paragraphs
+          - Built and scaled digital presence, increasing LinkedIn followers by 2,100+, X by 500%, and Facebook engagement tenfold.
+          - Administered pay-per-click (PPC) and conversion-focused campaigns across Google, Facebook, and LinkedIn.
+          - Led digital recruitment initiatives for technology training programs and hiring opportunities.
   - title: Education
     layout: list
     content:
       - layout: top-right
+        border: weak
+        title: LearningFuze, LLC
+        sub_title: Full-Time Data Science Intensive
+        caption: Jan 2025 - Jun 2025
+        description: | # this will include new lines to allow paragraphs
+          - Completed data science program of 600+ hands-on hours and 6 projects in machine learning, deep learning, and AI.
+          - Developed and deployed machine learning models, performed extensive data processing, and utilized Python, SQL, and various libraries (Pandas, Scikit-learn, Keras) for data analysis and visualization.
+          - Evaluated machine learning metrics to maximize model accuracy and drive data-driven decision-making.
+      - layout: top-right
         title: University of Illinois at Urbana-Champaign
         sub_title: Bachelor of Science in Mathematics
-        # caption: Date Range (eg. 2016 - 2019)
-        # quote: >
-        #   Short institution or course description (optional)
-        # description: | # this will include new lines to allow paragraphs
-        #   Description of qualification
-  - title: A Little More About Me
+        caption: May 2021
+        description: | # this will include new lines to allow paragraphs
+          **Relevant Coursework:** Applied Linear Algebra; Statistics and Probability; Graph Theory; Methods of Applied Statistics
+  - title: Skills
     layout: text
     content: | # this will include new lines to allow paragraphs
-      I love math, music, and marketing!
+      **Programming Languages:** Python, SQL (MySQL, PostgreSQL, SQLite)
+
+      **Data Science & Machine Learning:** Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, LightGBM, XGBoost, Data Mining, Data Wrangling, Natural Language Processing, Time Series, A/B Testing, Exploratory Data Analysis, Statistical Analysis
+
+      **Tools & Visualization:** Git, Docker, Jupyter Notebook, AI Deployment, Joblib, Tableau, Matplotlib, Seaborn
+
+      **Languages:** Native English speaker; Conversational proficiency in Spanish, Telugu, Hindi
 
 # Footer
 footer_show_references: false
